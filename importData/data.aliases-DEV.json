@@ -1,0 +1,338 @@
+[{
+  "_id": {
+    "$oid": "6528afcdcfa55f14964e9fa2"
+  },
+  "guildId": "GLOBAL",
+  "singular": "fuck",
+  "plural": "fucks",
+  "ticker": "XNO",
+  "value": "690000000000000000000000000",
+  "emoji": "🗿",
+  "ownerId": "556741746998902794",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528adf8cfa55f14964e9f99"
+  },
+  "guildId": "GLOBAL",
+  "singular": "big",
+  "plural": "bigs",
+  "ticker": "XNO",
+  "value": "10000000000000000000000000000",
+  "emoji": "🔭",
+  "ownerId": "967844118715854908",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528b1bccfa55f14964e9faa"
+  },
+  "guildId": "GLOBAL",
+  "singular": "foreskin",
+  "plural": "foreskins",
+  "ticker": "XNO",
+  "value": "4500000000000000000000000000",
+  "emoji": "<:foreskin:1309542045664411778>",
+  "ownerId": "330089443610460171",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528b322cfa55f14964e9fae"
+  },
+  "guildId": "GLOBAL",
+  "singular": "drosty",
+  "plural": "drostys",
+  "ticker": "XNO",
+  "value": "42000000000000000000000000000",
+  "emoji": "<:drosty:1309542140199571578>",
+  "ownerId": "863155129532547112",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528b124cfa55f14964e9fa7"
+  },
+  "guildId": "GLOBAL",
+  "singular": "rat",
+  "plural": "rats",
+  "ticker": "XNO",
+  "value": "1900000000000000000000000000",
+  "emoji": "<:rat:1309540970488139796>",
+  "ownerId": "349911209174106153",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528af11cfa55f14964e9f9f"
+  },
+  "guildId": "GLOBAL",
+  "singular": "fire",
+  "plural": "fires",
+  "ticker": "XNO",
+  "value": "200000000000000000000000000",
+  "emoji": "🔥",
+  "ownerId": "967844118715854908",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528af86cfa55f14964e9fa1"
+  },
+  "guildId": "GLOBAL",
+  "singular": "visionary",
+  "plural": "visionaries",
+  "ticker": "XNO",
+  "value": "100000000000000000000000000",
+  "emoji": "<:visionary:1309540860223950878>",
+  "ownerId": "858390190342406204",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528b2c8cfa55f14964e9fad"
+  },
+  "guildId": "GLOBAL",
+  "singular": "fistbump",
+  "plural": "fistbumps",
+  "ticker": "XNO",
+  "value": "50000000000000000000000000000",
+  "emoji": "👊",
+  "ownerId": "556579661853884436",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528b0d4cfa55f14964e9fa6"
+  },
+  "guildId": "GLOBAL",
+  "singular": "kimchi",
+  "plural": "kimchis",
+  "ticker": "XNO",
+  "value": "100000000000000000000000000",
+  "emoji": "<:kimchi:1309542003071123578>",
+  "ownerId": "789901209145835540",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528bc0bcfa55f14964e9fb1"
+  },
+  "guildId": "GLOBAL",
+  "singular": "blunt",
+  "plural": "blunts",
+  "ticker": "BAN",
+  "value": "10000000000000000000000000000",
+  "emoji": "😮‍💨",
+  "ownerId": "967844118715854908",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "65282c0ecfa55f14964e9f98"
+  },
+  "guildId": "GLOBAL",
+  "singular": "small",
+  "plural": "smalls",
+  "ticker": "XNO",
+  "value": "1000000000000000000000000000",
+  "emoji": "🔍",
+  "ownerId": "967844118715854908",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528b03ccfa55f14964e9fa3"
+  },
+  "guildId": "GLOBAL",
+  "singular": "tim",
+  "plural": "tims",
+  "ticker": "XNO",
+  "value": "42000000000000000000000000000",
+  "emoji": "<:tim:1309540884710424646>",
+  "ownerId": "1159576231965118624",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528ba90cfa55f14964e9faf"
+  },
+  "guildId": "GLOBAL",
+  "singular": "puff",
+  "plural": "puffs",
+  "ticker": "BAN",
+  "value": "1000000000000000000000000000",
+  "emoji": "🌿",
+  "ownerId": "967844118715854908",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528b0a6cfa55f14964e9fa5"
+  },
+  "guildId": "GLOBAL",
+  "singular": "honeysauce",
+  "plural": "honeysauces",
+  "ticker": "XNO",
+  "value": "1200000000000000000000000000",
+  "emoji": "🍯",
+  "ownerId": "479026967086104585",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528b188cfa55f14964e9fa9"
+  },
+  "guildId": "GLOBAL",
+  "singular": "dopamine",
+  "plural": "dopamines",
+  "ticker": "XNO",
+  "value": "1500000000000000000000000000",
+  "emoji": "💊",
+  "ownerId": "872808044726206475",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528b159cfa55f14964e9fa8"
+  },
+  "guildId": "GLOBAL",
+  "singular": "hercules",
+  "plural": "hercules",
+  "ticker": "XNO",
+  "value": "100000000000000000000000000",
+  "emoji": "<:hercules:1309542033790074941>",
+  "ownerId": "924831413239435334",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "65282b86cfa55f14964e9f97"
+  },
+  "guildId": "GLOBAL",
+  "singular": "micro",
+  "plural": "micros",
+  "ticker": "XNO",
+  "value": "100000000000000000000000000",
+  "emoji": "🔬",
+  "ownerId": "967844118715854908",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528af59cfa55f14964e9fa0"
+  },
+  "guildId": "GLOBAL",
+  "singular": "disappointment",
+  "plural": "disappointments",
+  "ticker": "XNO",
+  "value": "1000000000000000000000000000",
+  "emoji": "<:disappointment:1309542159371997266>",
+  "ownerId": "909041245903544375",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528ae97cfa55f14964e9f9c"
+  },
+  "guildId": "GLOBAL",
+  "singular": "sun",
+  "plural": "suns",
+  "ticker": "XNO",
+  "value": "100000000000000000000000000",
+  "emoji": "☀️",
+  "ownerId": "967844118715854908",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528aee7cfa55f14964e9f9e"
+  },
+  "guildId": "GLOBAL",
+  "singular": "storm",
+  "plural": "storms",
+  "ticker": "XNO",
+  "value": "200000000000000000000000000",
+  "emoji": "⚡",
+  "ownerId": "967844118715854908",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528bcc9cfa55f14964e9fb2"
+  },
+  "guildId": "GLOBAL",
+  "singular": "bansplit",
+  "plural": "bansplits",
+  "ticker": "BAN",
+  "value": "50000000000000000000000000000",
+  "emoji": "🍌",
+  "ownerId": "967844118715854908",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528bbfdcfa55f14964e9fb0"
+  },
+  "guildId": "GLOBAL",
+  "singular": "joint",
+  "plural": "joints",
+  "ticker": "BAN",
+  "value": "10000000000000000000000000000",
+  "emoji": "🌬️",
+  "ownerId": "967844118715854908",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6528b069cfa55f14964e9fa4"
+  },
+  "guildId": "GLOBAL",
+  "singular": "nice",
+  "plural": "nices",
+  "ticker": "XNO",
+  "value": "6900000000000000000000000000",
+  "emoji": "👍",
+  "ownerId": "626141672761458718",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "678302a30b459028e8558b9d"
+  },
+  "guildId": "1158815687477833848",
+  "ownerId": "626141672761458718",
+  "singular": "herme",
+  "plural": "hermes",
+  "ticker": "BAN",
+  "value": "12345678900000000000000000000",
+  "emoji": "⚚",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6792c6ed51f10a404083164a"
+  },
+  "guildId": "GLOBAL",
+  "ownerId": "967844118715854908",
+  "singular": "smol",
+  "plural": "smols",
+  "ticker": "BAN",
+  "value": "10000000000000000000000000000",
+  "emoji": "🌱",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+},
+{
+  "_id": {
+    "$oid": "6792f0cc51f10a404083164b"
+  },
+  "guildId": "GLOBAL",
+  "ownerId": "968291176572670013",
+  "singular": "banoshi",
+  "plural": "banoshis",
+  "ticker": "BAN",
+  "value": "1000000000000000000000000000",
+  "emoji": "💛",
+  "_class": "com.nanobot.nanobotbackend.entity.AliasEntity"
+}]

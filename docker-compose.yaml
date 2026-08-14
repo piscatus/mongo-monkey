@@ -1,0 +1,101 @@
+services:
+  mongo-monkey:
+    command:
+      [
+        "mongod",
+        "--bind_ip_all",
+        "--dbpath",
+        "/data/db",
+        "--port",
+        "${NODE1_PORT}",
+        "--replSet",
+        "${REPL_SET_NAME}",
+      ]
+    container_name: ${NODE1_NAME}
+    cpus: "1.0"
+    hostname: ${NODE1_NAME}
+    image: mongodb/mongodb-community-server:7.0.2-ubuntu2204
+    mem_limit: 4g
+    networks:
+      - mongo-net
+    pids_limit: 500
+    ports:
+      - "${NODE1_PORT}:${NODE1_PORT}"
+    restart: always
+    user: "1000:1000"
+    volumes:
+      - ./data/${NODE1_NAME}:/data/db
+
+  mongo-marsupial:
+    command:
+      [
+        "mongod",
+        "--bind_ip_all",
+        "--dbpath",
+        "/data/db",
+        "--port",
+        "${NODE2_PORT}",
+        "--replSet",
+        "${REPL_SET_NAME}",
+      ]
+    container_name: ${NODE2_NAME}
+    cpus: "1.0"
+    hostname: ${NODE2_NAME}
+    image: mongodb/mongodb-community-server:7.0.2-ubuntu2204
+    mem_limit: 4g
+    networks:
+      - mongo-net
+    pids_limit: 500
+    ports:
+      - "${NODE2_PORT}:${NODE2_PORT}"
+    restart: always
+    user: "1000:1000"
+    volumes:
+      - ./data/${NODE2_NAME}:/data/db
+
+  mongo-meerkat:
+    command:
+      [
+        "mongod",
+        "--bind_ip_all",
+        "--port",
+        "${ARBITER_PORT}",
+        "--replSet",
+        "${REPL_SET_NAME}",
+      ]
+    container_name: ${ARBITER_NAME}
+    cpus: "0.25"
+    hostname: ${ARBITER_NAME}
+    image: mongodb/mongodb-community-server:7.0.2-ubuntu2204
+    mem_limit: 4g
+    networks:
+      - mongo-net
+    pids_limit: 500
+    ports:
+      - "${ARBITER_PORT}:${ARBITER_PORT}"
+    restart: always
+
+  mongo-express:
+    container_name: ${MONGO_EXPRESS_NAME}
+    cpus: "0.25"
+    depends_on:
+      - mongo-monkey
+      - mongo-marsupial
+      - mongo-meerkat
+    environment:
+      ME_CONFIG_MONGODB_ENABLE_ADMIN: "true"
+      ME_CONFIG_MONGODB_URL: "mongodb://${NODE1_NAME}:${NODE1_PORT},${NODE2_NAME}:${NODE2_PORT},${ARBITER_NAME}:${ARBITER_PORT}/?replicaSet=${REPL_SET_NAME}"
+      PORT: ${MONGO_EXPRESS_PORT}
+    image: mongo-express:1.0.2-18-alpine3.18
+    mem_limit: 2g
+    networks:
+      - mongo-net
+    pids_limit: 500
+    ports:
+      - "${MONGO_EXPRESS_PORT}:${MONGO_EXPRESS_PORT}"
+    restart: always
+
+networks:
+  mongo-net:
+    external: true
+    name: ${NETWORK_NAME}

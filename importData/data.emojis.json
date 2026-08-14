@@ -1,0 +1,336 @@
+[{
+  "name": "banana",
+  "emoji": "🍌",
+  "category": "fruits",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "red apple",
+  "emoji": "🍎",
+  "category": "fruits",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "grapes",
+  "emoji": "🍇",
+  "category": "fruits",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "watermelon",
+  "emoji": "🍉",
+  "category": "fruits",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "pineapple",
+  "emoji": "🍍",
+  "category": "fruits",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "kiwi",
+  "emoji": "🥝",
+  "category": "fruits",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "cherries",
+  "emoji": "🍒",
+  "category": "fruits",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "lemon",
+  "emoji": "🍋",
+  "category": "fruits",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "dog",
+  "emoji": "🐶",
+  "category": "animals",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "elephant",
+  "emoji": "🐘",
+  "category": "animals",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "frog",
+  "emoji": "🐸",
+  "category": "animals",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "octopus",
+  "emoji": "🐙",
+  "category": "animals",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "snake",
+  "emoji": "🐍",
+  "category": "animals",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "turtle",
+  "emoji": "🐢",
+  "category": "animals",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "butterfly",
+  "emoji": "🦋",
+  "category": "animals",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "cat",
+  "emoji": "🐱",
+  "category": "animals",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "car",
+  "emoji": "🚗",
+  "category": "vehicles",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "helicopter",
+  "emoji": "🚁",
+  "category": "vehicles",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "sailboat",
+  "emoji": "⛵",
+  "category": "vehicles",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "bicycle",
+  "emoji": "🚲",
+  "category": "vehicles",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "rocket",
+  "emoji": "🚀",
+  "category": "vehicles",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "train",
+  "emoji": "🚂",
+  "category": "vehicles",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "tractor",
+  "emoji": "🚜",
+  "category": "vehicles",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "scooter",
+  "emoji": "🛴",
+  "category": "vehicles",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "burger",
+  "emoji": "🍔",
+  "category": "food",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "pizza",
+  "emoji": "🍕",
+  "category": "food",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "taco",
+  "emoji": "🌮",
+  "category": "food",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "donut",
+  "emoji": "🍩",
+  "category": "food",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "ice cream",
+  "emoji": "🍦",
+  "category": "food",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "pretzel",
+  "emoji": "🥨",
+  "category": "food",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "popcorn",
+  "emoji": "🍿",
+  "category": "food",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "cheese wedge",
+  "emoji": "🧀",
+  "category": "food",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "soccer ball",
+  "emoji": "⚽",
+  "category": "sports",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "basketball",
+  "emoji": "🏀",
+  "category": "sports",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "football",
+  "emoji": "🏈",
+  "category": "sports",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "tennis ball",
+  "emoji": "🎾",
+  "category": "sports",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "8-ball",
+  "emoji": "🎱",
+  "category": "sports",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "bowling",
+  "emoji": "🎳",
+  "category": "sports",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "boxing glove",
+  "emoji": "🥊",
+  "category": "sports",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "baseball",
+  "emoji": "⚾",
+  "category": "sports",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "guitar",
+  "emoji": "🎸",
+  "category": "instruments",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "trumpet",
+  "emoji": "🎺",
+  "category": "instruments",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "keyboard",
+  "emoji": "🎹",
+  "category": "instruments",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "drum",
+  "emoji": "🥁",
+  "category": "instruments",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "violin",
+  "emoji": "🎻",
+  "category": "instruments",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "saxophone",
+  "emoji": "🎷",
+  "category": "instruments",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "banjo",
+  "emoji": "🪕",
+  "category": "instruments",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "flute",
+  "emoji": "🪈",
+  "category": "instruments",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "clock showing twelve",
+  "emoji": "🕛",
+  "category": "clocks",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "clock showing one",
+  "emoji": "🕐",
+  "category": "clocks",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "clock showing three",
+  "emoji": "🕒",
+  "category": "clocks",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "clock showing four",
+  "emoji": "🕓",
+  "category": "clocks",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "clock showing six",
+  "emoji": "🕕",
+  "category": "clocks",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "clock showing seven",
+  "emoji": "🕖",
+  "category": "clocks",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "clock showing nine",
+  "emoji": "🕘",
+  "category": "clocks",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+},
+{
+  "name": "clock showing ten",
+  "emoji": "🕙",
+  "category": "clocks",
+  "_class": "com.nanobot.nanobotbackend.entity.EmojiEntity"
+}]

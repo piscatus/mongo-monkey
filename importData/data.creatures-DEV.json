@@ -1,0 +1,224 @@
+[{
+  "_id": {
+    "$oid": "6529a501cfa55f14964e9fc5"
+  },
+  "name": "Shrimp",
+  "pluralization": "Shrimps",
+  "capacity": 200,
+  "odds": 299,
+  "value": "100000000000000000000000000",
+  "ticker": "XNO",
+  "emoji": "<:shrimp:1309540209226158100>",
+  "image": "https://cdn.discordapp.com/emojis/1309540209226158100",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "6529a9fccfa55f14964e9fc8"
+  },
+  "name": "Crab",
+  "pluralization": "Crabs",
+  "capacity": 200,
+  "odds": 100,
+  "value": "500000000000000000000000000",
+  "ticker": "XNO",
+  "emoji": "<:crab:1309540535475896341>",
+  "image": "https://cdn.discordapp.com/emojis/1309540535475896341",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "6529ac3bcfa55f14964e9fcb"
+  },
+  "name": "Shark",
+  "pluralization": "Sharks",
+  "capacity": 200,
+  "odds": 50,
+  "value": "900000000000000000000000000",
+  "ticker": "XNO",
+  "emoji": "<:shark:1309540225172901960>",
+  "image": "https://cdn.discordapp.com/emojis/1309540225172901960",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "65299f96cfa55f14964e9fbf"
+  },
+  "name": "Seahorse",
+  "pluralization": "Seahorses",
+  "capacity": 200,
+  "odds": 200,
+  "value": "30000000000000000000000000000",
+  "ticker": "BAN",
+  "emoji": "<:seahorse:1309540257338884217>",
+  "image": "https://cdn.discordapp.com/emojis/1309540257338884217",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "6529ac80cfa55f14964e9fcc"
+  },
+  "name": "Whale",
+  "pluralization": "Whales",
+  "capacity": 200,
+  "odds": 30,
+  "value": "1000000000000000000000000000",
+  "ticker": "XNO",
+  "emoji": "<:whale:1309540143480311828>",
+  "image": "https://cdn.discordapp.com/emojis/1309540143480311828",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "6529acc9cfa55f14964e9fcd"
+  },
+  "name": "Kraken",
+  "pluralization": "Krakens",
+  "capacity": 200,
+  "odds": 1,
+  "value": "10000000000000000000000000000",
+  "ticker": "XNO",
+  "emoji": "<:kraken:1309540402025594981>",
+  "image": "https://cdn.discordapp.com/emojis/1309540402025594981",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "65299f00cfa55f14964e9fbe"
+  },
+  "name": "Starfish",
+  "pluralization": "Starfishes",
+  "capacity": 200,
+  "odds": 250,
+  "value": "20000000000000000000000000000",
+  "ticker": "BAN",
+  "emoji": "<:starfish:1309540175847620791>",
+  "image": "https://cdn.discordapp.com/emojis/1309540175847620791",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "6529a114cfa55f14964e9fc0"
+  },
+  "name": "Octopus",
+  "pluralization": "Octopuses",
+  "capacity": 200,
+  "odds": 100,
+  "value": "50000000000000000000000000000",
+  "ticker": "BAN",
+  "emoji": "<:octopus:1309540342785118228>",
+  "image": "https://cdn.discordapp.com/emojis/1309540342785118228",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "6529a311cfa55f14964e9fc2"
+  },
+  "name": "Penguin",
+  "pluralization": "Penguins",
+  "capacity": 200,
+  "odds": 50,
+  "value": "90000000000000000000000000000",
+  "ticker": "BAN",
+  "emoji": "<:penguin:1309540278897475635>",
+  "image": "https://cdn.discordapp.com/emojis/1309540278897475635",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "6529abd8cfa55f14964e9fca"
+  },
+  "name": "Lobster",
+  "pluralization": "Lobsters",
+  "capacity": 200,
+  "odds": 70,
+  "value": "700000000000000000000000000",
+  "ticker": "XNO",
+  "emoji": "<:lobster:1309540372418007150>",
+  "image": "https://cdn.discordapp.com/emojis/1309540372418007150",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "6529a3c4cfa55f14964e9fc3"
+  },
+  "name": "Dolphin",
+  "pluralization": "Dolphins",
+  "capacity": 200,
+  "odds": 30,
+  "value": "100000000000000000000000000000",
+  "ticker": "BAN",
+  "emoji": "<:dolphin:1309540522498457762>",
+  "image": "https://cdn.discordapp.com/emojis/1309540522498457762",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "6529a611cfa55f14964e9fc7"
+  },
+  "name": "Fish",
+  "pluralization": "Fishes",
+  "capacity": 200,
+  "odds": 200,
+  "value": "300000000000000000000000000",
+  "ticker": "XNO",
+  "emoji": "<:fish:1309540497433427968>",
+  "image": "https://cdn.discordapp.com/emojis/1309540497433427968",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "6529a59bcfa55f14964e9fc6"
+  },
+  "name": "Squid",
+  "pluralization": "Squids",
+  "capacity": 200,
+  "odds": 250,
+  "value": "200000000000000000000000000",
+  "ticker": "XNO",
+  "emoji": "<:squid:1309540197796548609>",
+  "image": "https://cdn.discordapp.com/emojis/1309540197796548609",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "65299e95cfa55f14964e9fbd"
+  },
+  "name": "Jellyfish",
+  "pluralization": "Jellyfishes",
+  "capacity": 200,
+  "odds": 299,
+  "value": "10000000000000000000000000000",
+  "ticker": "BAN",
+  "emoji": "<:jellyfish:1309540478177378408>",
+  "image": "https://cdn.discordapp.com/emojis/1309540478177378408",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "6529a406cfa55f14964e9fc4"
+  },
+  "name": "Leviathan",
+  "pluralization": "Leviathans",
+  "capacity": 200,
+  "odds": 1,
+  "value": "1000000000000000000000000000000",
+  "ticker": "BAN",
+  "emoji": "<:leviathan:1309540387576086590>",
+  "image": "https://cdn.discordapp.com/emojis/1309540387576086590",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+},
+{
+  "_id": {
+    "$oid": "6529a17dcfa55f14964e9fc1"
+  },
+  "name": "Turtle",
+  "pluralization": "Turtles",
+  "capacity": 200,
+  "odds": 70,
+  "value": "70000000000000000000000000000",
+  "ticker": "BAN",
+  "emoji": "<:turtle:1309540162249949185>",
+  "image": "https://cdn.discordapp.com/emojis/1309540162249949185",
+  "_class": "com.nanobot.nanobotbackend.entity.CreatureEntity"
+}]

@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "66e5b30db1a4be7d74f874e5"
+  },
+  "singular": "example",
+  "plural": "examples",
+  "contains": true,
+  "_class": "com.nanobot.nanobotbackend.entity.ProfanityEntity"
+}]
