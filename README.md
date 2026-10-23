@@ -155,6 +155,23 @@ Create Necessary Indexes:
 - `db.userDetails.createIndex({ userId: 1 }, { unique: true });`
 - `db.userItems.createIndex({ userId: 1 }, { unique: true });`
 - `db.userWallets.createIndex({ userId: 1 }, { unique: true });`
+- `db.depositAddresses.createIndex({ ticker: 1, userId: 1 }, { name: "ticker_userId_unique", unique: true });`
+- `db.depositAddresses.createIndex({ ticker: 1, address: 1 }, { name: "ticker_address_unique", unique: true });`
+- `db.depositAddresses.createIndex({ ticker: 1, addressIndex: 1 }, { name: "ticker_addressIndex_unique", unique: true });`
+- `db.depositRecords.createIndex({ ticker: 1, txid: 1, addressIndex: 1, outputIndex: 1 }, { name: "ticker_txid_index_output_unique", unique: true });`
+- `db.transactions.createIndex({ timestamp: -1 }, { name: "timestamp_desc" });`
+- `db.transactions.createIndex({ primaryUserId: 1, timestamp: -1 }, { name: "primaryUserId_timestamp" });`
+- `db.transactions.createIndex({ secondaryUserId: 1, timestamp: -1 }, { name: "secondaryUserId_timestamp" });`
+- `db.transactions.createIndex({ primaryReceiverIds: 1, timestamp: -1 }, { name: "primaryReceiverIds_timestamp" });`
+- `db.transactions.createIndex({ secondaryReceiverIds: 1, timestamp: -1 }, { name: "secondaryReceiverIds_timestamp" });`
+- `db.trivias.createIndex({ hash: 1 }, { name: "hash_unique", unique: true });`
+- `db.trivias.createIndex({ enabled: 1, category: 1, lastUsed: 1 }, { name: "enabled_category_lastUsed" });`
+- `db.trivias.createIndex({ source: 1, enabled: 1 }, { name: "source_enabled" });`
+
+Notes:
+
+- The `depositNotices` indexes (`ticker_txid_index_unique` and the 14-day `timestamp_ttl`) are created by the API itself at startup; nothing to run by hand.
+- Databases that received the old `depositRecords` index `ticker_txid_index_unique` (ticker, txid, addressIndex) need a one-time migration: create `ticker_txid_index_output_unique` as above, then `db.depositRecords.dropIndex("ticker_txid_index_unique")`. The API expects the four-field rule since the combined Monero sends change.
 
 Finally:
 
